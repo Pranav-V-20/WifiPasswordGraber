@@ -19,33 +19,19 @@ Python: For implementing the core functionality.
 
 Installation
 ---
-Clone the repository:
+To run the Script:
 
-bash
-git clone https://github.com/your-username/wifi-password-recovery.git
-Navigate to the project directory:
+    wifi_password.py
 
-bash
-cd wifi-password-recovery
-Install the required dependencies:
-
-bash
-pip install -r requirements.txt
-Usage
-Command Line Interface (CLI)
-Run the script:
-
-bash
-python wifi_password_recovery.py
-The script will display all saved Wi-Fi networks and their passwords.
-
-Graphical User Interface (GUI) (Optional)
+How it works
 ---
-Run the script with GUI support:
+It scans all the networks that already you connected into your pc.
 
-bash
-python wifi_password.py
-Use the GUI to view saved Wi-Fi networks and their passwords.
+This tool take Username and Password.For Example
+
+{'ssid': 'username', 'password': 'password'}
+
+This is sample output.
 
 Legal Disclaimer
 ---
